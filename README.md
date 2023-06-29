@@ -1,6 +1,6 @@
 # DADF
 Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization.
-![contents](./contents.pdf)
+![contents](./contents.png)
 
 
 Codes will be available after the submission is accepted.
