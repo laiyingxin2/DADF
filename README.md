@@ -1,7 +1,7 @@
 # <font color="black">Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization</font>
 
 
-**Environment**
+## Environment
 You can install all the requirements via:
 ```
 pip install -r requirements.txt
