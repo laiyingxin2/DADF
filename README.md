@@ -27,7 +27,7 @@ Please consider citing the following paper if you find it interesting or helpful
 @article{lai2023detect,
   title={Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization},
   author={Lai, Yingxin and Luo, Zhiming and Yu, Zitong},
-  journal={arXiv preprint arXiv:2306.17075},
+  journal={Chinese Conference on Biometric Recognition，CCBR},
   year={2023}
 }
 ```
