@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 Our code is based on the [SAM-Adapter-PyTorch](https://github.com/tianrun-chen/SAM-Adapter-PyTorch) repository.
 
-Data sources:
+## Data sources:
 - [FaceForensics](https://github.com/ondyari/FaceForensics)
 - [Detect and Locate](https://github.com/ChenqiKONG/Detect_and_Locate)
 
