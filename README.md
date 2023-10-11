@@ -1,17 +1,11 @@
-# <font color="black">Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization</font> [<sup>source</sup>](https://arxiv.org/abs/2306.17075)
+# <font color="black">Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization</font>(https://arxiv.org/abs/2306.17075)
 
 
-
-**Please consider citing the following paper if you find it interesting or helpful to your research:**
-
-##Citation
+#Environment
+You can install all the requirements via:
 ```
-@article{lai2023detect,
-  title={Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization},
-  author={Lai, Yingxin and Luo, Zhiming and Yu, Zitong},
-  journal={arXiv preprint arXiv:2306.17075},
-  year={2023}
-}
+pip install -r requirements.txt
+
 ```
 
 
@@ -24,6 +18,16 @@ Data sources:
 
 To run our code, you can use the following command:
 
-```bash
-[Your command to run the code]
+```
+bash run.sh
+```
 
+Please consider citing the following paper if you find it interesting or helpful to your research:**
+```
+@article{lai2023detect,
+  title={Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization},
+  author={Lai, Yingxin and Luo, Zhiming and Yu, Zitong},
+  journal={arXiv preprint arXiv:2306.17075},
+  year={2023}
+}
+```
