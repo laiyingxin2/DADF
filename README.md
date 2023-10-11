@@ -22,7 +22,7 @@ To run our code, you can use the following command:
 bash run.sh
 ```
 
-Please consider citing the following paper if you find it interesting or helpful to your research:**
+Please consider citing the following paper if you find it interesting or helpful to your research
 ```
 @article{lai2023detect,
   title={Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization},
