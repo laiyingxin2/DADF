@@ -1,9 +1,19 @@
-# [Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization](https://arxiv.org/abs/2306.17075)
+# <font color="black">Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization</font> [<sup>source</sup>](https://arxiv.org/abs/2306.17075)
+
+**Detect and Locate: Exposing Face Manipulation by Semantic- and Noise-level Telltales**
 
 
-Please consider citing the following paper if you find it interesting or helpful to your research:
+**Please consider citing the following paper if you find it interesting or helpful to your research:**
 
-
+##Citation
+```
+@article{lai2023detect,
+  title={Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization},
+  author={Lai, Yingxin and Luo, Zhiming and Yu, Zitong},
+  journal={arXiv preprint arXiv:2306.17075},
+  year={2023}
+}
+```
 
 
 
