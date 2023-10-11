@@ -2,8 +2,8 @@ train_dataset:
   dataset:
     name: paired-image-folders
     args:
-      root_path_1: ../data/NeuralTextures/val/face
-      root_path_2: ../data/NeuralTextures/val/mask
+      root_path_1: ../data/NeuralTextures/train/face
+      root_path_2: ../data/NeuralTextures/train/mask
       cache: none
       split_key: train
   wrapper:
@@ -17,8 +17,8 @@ val_dataset:
   dataset:
     name: paired-image-folders
     args:
-      root_path_1: ../data/NeuralTextures/train/face
-      root_path_2: ../data/NeuralTextures/train/mask
+      root_path_1: ../data/NeuralTextures/val/face
+      root_path_2: ../data/NeuralTextures/val/mask
       cache: none
       split_key: test
   wrapper:
