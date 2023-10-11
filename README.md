@@ -1,4 +1,4 @@
-# <font color="black">Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization</font>(https://arxiv.org/abs/2306.17075)
+# <font color="black">Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization</font>
 
 
 **Environment**
