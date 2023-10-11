@@ -3,13 +3,13 @@
 
 Please consider citing the following paper if you find it interesting or helpful to your research:
 
-**Title:** Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization
 
-**Authors:** Yingxin Lai, Zhiming Luo, Zitong Yu
-
-**Journal:** [arXiv preprint arXiv:2306.17075](https://arxiv.org/abs/2306.17075)
-
-**Year:** 2023
+@article{lai2023detect,
+  title={Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization},
+  author={Lai, Yingxin and Luo, Zhiming and Yu, Zitong},
+  journal={arXiv preprint arXiv:2306.17075},
+  year={2023}
+}
 
 **Citation:**
 Our code is based on the [SAM-Adapter-PyTorch](https://github.com/tianrun-chen/SAM-Adapter-PyTorch) repository.
