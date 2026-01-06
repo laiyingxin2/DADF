@@ -3,7 +3,7 @@ train_dataset:
     name: paired-image-folders
     args:
       root_path_1: ./load/CAMO/Images/Train
-      root_path_2: ./load/CAMO/Train_gt
+      root_path_2: ./load/CAMO/GT
       cache: none
       split_key: train
   wrapper:
@@ -18,7 +18,7 @@ val_dataset:
     name: paired-image-folders
     args:
       root_path_1: ./load/CAMO/Images/Test
-      root_path_2: ./load/CAMO/Test_gt
+      root_path_2: ./load/CAMO/GT
       cache: none
       split_key: test
   wrapper:
@@ -32,7 +32,7 @@ test_dataset:
     name: paired-image-folders
     args:
       root_path_1: ./load/CAMO/Images/Test
-      root_path_2: ./load/CAMO/Test_gt
+      root_path_2: ./load/CAMO/GT
       cache: none
       split_key: test
   wrapper:
@@ -42,7 +42,7 @@ test_dataset:
   batch_size: 1
 
 eval_type: cod
-sam_checkpoint: ./pretrained/sam_vit_l_0b3195.pth
+sam_checkpoint: sam_vit_h_4b8939.pth
 data_norm:
   inp:
     sub:
