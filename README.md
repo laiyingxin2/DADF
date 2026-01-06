@@ -1,12 +1,13 @@
 ````
 # Detect Any Deepfakes (DADF)
+
 **Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization**
 
 - **Paper (arXiv PDF):** https://arxiv.org/pdf/2306.17075  
-- **Base code:** [SAM-Adapter-PyTorch](https://github.com/tianrun-chen/SAM-Adapter-PyTorch)
+- **Base code:** https://github.com/tianrun-chen/SAM-Adapter-PyTorch  
 
-This repo implements **DADF**, a SAM-based framework for **deepfake detection** and **pixel-level forgery localization**.  
-The training/testing pipeline is also reusable for **other segmentation-style tasks** by switching datasets + configs.
+This repository implements **DADF**, a SAM-based framework for **deepfake detection** and **pixel-level forgery localization**.  
+The same training/testing pipeline can also be reused for **other segmentation-style tasks** by switching **datasets** and **configs**.
 
 ---
 
@@ -20,7 +21,7 @@ pip install -r requirements.txt
 
 ## Download SAM Weights
 
-Put checkpoints into `./pretrained/` (or set `sam_checkpoint` in yaml):
+Put checkpoints into `./pretrained/` (or set `sam_checkpoint` in your yaml config):
 
 * **`default` / `vit_h`**: [https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
 * **`vit_l`**: [https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
@@ -90,7 +91,7 @@ Use the provided script:
 bash run.sh
 ```
 
-Your `run.sh` example:
+Example `run.sh`:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,4,3 \
@@ -112,12 +113,12 @@ python test.py --config [CONFIG_PATH] --model [MODEL_PATH]
 
 ### MMCV Version Error
 
-Fix:
-
 ```bash
 pip uninstall -y mmcv mmcv-full mmcv-lite
 pip install -U "mmcv-full==1.7.0" -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html
 ```
+
+---
 
 ## Citation
 
@@ -129,4 +130,5 @@ pip install -U "mmcv-full==1.7.0" -f https://download.openmmlab.com/mmcv/dist/cu
   year={2023}
 }
 ```
- 
+
+
