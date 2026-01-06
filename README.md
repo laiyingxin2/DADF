@@ -143,7 +143,4 @@ This project is built upon [SAM-Adapter](https://github.com/tianrun-chen/SAM-Ada
 
 
 
- 
-你可以直接复制上面的内容覆盖到你的 `README.md` 文件中。需要我帮你检查 `requirements.txt` 的依赖版本兼容性吗？
 
-```
