@@ -409,7 +409,6 @@ class Block(nn.Module):
 
         self.norm2 = norm_layer(dim)
         self.mlp = MLPBlock(embedding_dim=dim, mlp_dim=int(dim * mlp_ratio), act=act_layer)
-        sel.rfb=BasicRFB(embedding_dim=dim, mlp_dim=int(dim * mlp_ratio))
 
         self.window_size = window_size
 
@@ -427,8 +426,7 @@ class Block(nn.Module):
             x = window_unpartition(x, self.window_size, pad_hw, (H, W))
 
         x = shortcut + x
-        #x = x + self.mlp(self.norm2(x))
-        x = x + sel.rfb(self.norm2(x))
+        x = x + self.mlp(self.norm2(x))
 
         return x
 
