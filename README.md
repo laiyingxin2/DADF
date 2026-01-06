@@ -1,4 +1,4 @@
-````md
+````
 # Detect Any Deepfakes (DADF)
 **Detect Any Deepfakes: Segment Anything Meets Face Forgery Detection and Localization**
 
