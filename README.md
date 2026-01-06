@@ -7,9 +7,6 @@ This repository provides the official implementation of **DADF (Detect Any Deepf
 
 In addition to deepfake tasks, the codebase is also **compatible with other dense prediction tasks** (e.g., camouflaged object detection, shadow detection, polyp segmentation) by switching dataset configs and evaluation metrics.
 
-> This code is built upon the excellent project: **[SAM-Adapter-PyTorch](https://github.com/tianrun-chen/SAM-Adapter-PyTorch)**.
-
----
 
 ## Highlights
 
